@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HS Dentist | Premium Dental Care</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="container navbar">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-tooth"></i> HS <span>Dentist</span>
+            </a>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About Us</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#appointment" class="nav-link btn-nav">Book Appointment</a>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <h1>Crafting Radiant & Healthy Smiles</h1>
+                <p>Welcome to <strong>HS Dentist</strong>. We provide state-of-the-art dental solutions with maximum comfort and personalized care for the whole family.</p>
+                <div class="hero-btns">
+                    <a href="#appointment" class="btn btn-primary">Book Now</a>
+                    <a href="#services" class="btn btn-secondary">Our Services</a>
+                </div>
+            </div>
+            <div class="hero-card-wrapper">
+                <div class="hero-card">
+                    <i class="fa-solid fa-user-doctor hero-icon"></i>
+                    <h3>Expert Care</h3>
+                    <p>Certified specialists using advanced modern technology.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container about-container">
+            <div class="about-image">
+                <div class="img-box">
+                    <i class="fa-solid fa-teeth-open"></i>
+                </div>
+            </div>
+            <div class="about-content">
+                <span class="sub-title">Why Choose Us</span>
+                <h2>Your Smile Is Our Top Priority</h2>
+                <p>At HS Dentist, we combine years of clinical experience with modern painless dentistry methods. We ensure a relaxing environment where every patient receives top-tier dental treatments.</p>
+                <ul class="about-list">
+                    <li><i class="fa-solid fa-circle-check"></i> 100% Painless Procedures</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Modern Sterilization Standards</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Emergency Dental Assistance</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Dental Services</h2>
+                <p>Comprehensive oral healthcare tailored to your unique needs.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fa-solid fa-teeth icon"></i>
+                    <h3>General Dentistry</h3>
+                    <p>Regular checkups, professional cleanings, and preventative oral care.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-wand-magic-sparkles icon"></i>
+                    <h3>Teeth Whitening</h3>
+                    <p>Brighten your smile dramatically with our safe cosmetic whitening treatments.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-shield-halved icon"></i>
+                    <h3>Dental Implants</h3>
+                    <p>Durable and natural-looking tooth replacements built to last a lifetime.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-smile icon"></i>
+                    <h3>Orthodontics</h3>
+                    <p>Clear aligners and traditional braces to straighten teeth effortlessly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section class="appointment" id="appointment">
+        <div class="container">
+            <div class="appointment-box">
+                <h2>Schedule Your Visit</h2>
+                <p>Fill in your details below and our team will confirm your slot.</p>
+                
+                <form id="bookingForm" class="appointment-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="date" id="date" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <textarea id="message" rows="4" placeholder="Describe your issue or preferred time..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Confirm Booking</button>
+                </form>
+                <div id="formSuccess" class="success-message">Thank you! Your appointment request has been submitted.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo light">
+                    <i class="fa-solid fa-tooth"></i> HS <span>Dentist</span>
+                </a>
+                <p>Providing exceptional dental care with passion and expertise.</p>
+            </div>
+            <div class="footer-info">
+                <h4>Contact Info</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Medical Healthcare District, City</p>
+                <p><i class="fa-solid fa-phone"></i> +123 456 7890</p>
+                <p><i class="fa-solid fa-envelope"></i> info@hsdentist.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 HS Dentist. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
